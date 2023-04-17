@@ -26,3 +26,46 @@
     bottom: 0;
     width: 100%;
   }
+
+  hr {
+    border: solid 1px black;
+    margin: 10px 350px;
+  }
+
+  input {
+    border-radius: 1vh;
+    border: solid 1px black;
+    width: 30%;
+    padding: 10px;
+  }
+
+  /* dispositivos small */
+
+@media all and (max-width: 767px) {
+    input {
+        border-radius: 1vh;
+        border: solid 1px black;
+        width: 80%;
+        padding: 10px;
+      }
+
+      h1 {
+        width: 95%;
+      }
+
+      footer {
+        padding: 15px;
+        position: fixed;
+        bottom: 0;
+        width: 90%;
+      }
+  }
+  
+  /* dispositivos medium */
+  
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    hr {
+        border: solid 1px black;
+        margin: 10px 150px;
+      }
+    }
