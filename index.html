@@ -36,22 +36,43 @@
     </header>
 
     <main>
-      
-        <article> 
-            <h1 class="text-center mt-5"> INGRESE UNA ACTIVIDAD </h1>
-            <hr>
-        </article>
-        
-        <article class="d-flex justify-content-center mt-5">
-            <input type="text" placeholder="Ingrese la actividad" class="text-center">
-          
-        </article>
-        <div class="text-center mt-4">       
-        <button type="button" class="btn btn-dark"> Ingresar</button> 
-        </div>
-  
+      <article>
+        <h1 class="text-center mt-5">INGRESE UNA ACTIVIDAD</h1>
+        <hr />
+      </article>
 
+      <article class="d-flex justify-content-center mt-5">
+        <input
+          type="text"
+          placeholder="Ingrese la actividad"
+          class="text-center input1"
+          id="input"
+        />
+      </article>
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-dark" id="button">Ingresar</button>
+      </div>
 
+      <div>
+        <ol class="text-center mt-5 list-unstyled">
+          <h2 class="mt-5">Lista de actividades</h2>
+          <hr class="ancho" />
+          <li class="text-center mt-2 mb-2"><h4 id="lista"></h4></li>
+        </ol>
+      </div>
+
+      <article class="text-center espacio">
+        <h5 class="mt-5">Ingrese la palabra que desee eliminar de la lista</h5>
+        <input
+          type="text"
+          placeholder="Ingrese la palabra"
+          class="text-center input2 mt-3"
+          id="input2"
+        />
+        <button type="button" class="btn btn-danger" id="boton">
+          Eliminar
+        </button>
+      </article>
     </main>
     <footer class="text-center text-light bg-black">
       <p>&copy; Creado por Agustin Baza</p>
