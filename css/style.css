@@ -1,71 +1,112 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&family=Arvo&family=Bebas+Neue&family=Black+Han+Sans&family=Karla:wght@600&family=Londrina+Outline&family=Montserrat:wght@300&family=Open+Sans&family=Orbitron&family=Poppins&family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  body {
-    min-height: 100vh;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+body {
+  min-height: 100vh;
+  background-color: #8ec5fc;
+  margin: 0px;
+  padding: 0px;
+}
 
-    
+main {
+  font-family: "Karla", sans-serif;
+}
 
-  }
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 
-  .navbar {
+footer {
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+hr {
+  border: solid 1px black;
+  margin: 10px 350px;
+}
+
+.input1 {
+  border-radius: 1vh;
+  border: solid 1px black;
+  width: 30%;
+  padding: 10px;
+}
+
+.input2 {
+  border-radius: 1vh;
+  border: solid 1px black;
+  width: 10%;
+  padding: 6px;
+}
+
+.ancho {
+  margin: 10px 40%;
+}
+
+.espacio {
+  margin-top: 200px;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .input1 {
+    border-radius: 1vh;
+    border: solid 1px black;
+    width: 80%;
     padding: 10px;
-    display: flex;
-    justify-content: center;
   }
-  
+
+  h1 {
+    width: 95%;
+  }
+
   footer {
     padding: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
   }
 
+  .espacio {
+    margin-top: 100px;
+  }
+
+  .input2 {
+    border-radius: 1vh;
+    border: solid 1px black;
+    width: 50%;
+    padding: 6px;
+    margin-bottom: 150px;
+  }
   hr {
     border: solid 1px black;
-    margin: 10px 350px;
+    margin: 10px 20px;
   }
 
-  input {
+  h5 {
+    margin: 5px 20px;
+  }
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  hr {
+    border: solid 1px black;
+    margin: 10px 150px;
+  }
+
+  .input2 {
     border-radius: 1vh;
     border: solid 1px black;
     width: 30%;
-    padding: 10px;
+    padding: 6px;
   }
-
-  /* dispositivos small */
-
-@media all and (max-width: 767px) {
-    input {
-        border-radius: 1vh;
-        border: solid 1px black;
-        width: 80%;
-        padding: 10px;
-      }
-
-      h1 {
-        width: 95%;
-      }
-
-      footer {
-        padding: 15px;
-        position: fixed;
-        bottom: 0;
-        width: 90%;
-      }
-  }
-  
-  /* dispositivos medium */
-  
-  @media all and (min-width: 768px) and (max-width: 991px) {
-    hr {
-        border: solid 1px black;
-        margin: 10px 150px;
-      }
-    }
+}
