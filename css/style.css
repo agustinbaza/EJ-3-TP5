@@ -23,10 +23,8 @@ main {
 }
 
 footer {
-  padding: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 30px;
+
 }
 
 hr {
@@ -53,7 +51,8 @@ hr {
 }
 
 .espacio {
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 200px;
 }
 
 /* dispositivos small */
