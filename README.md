@@ -1,5 +1,5 @@
 # EJERCITACIÓN DE JAVASCRIPT PARTE 5  
-A continuación muestro mi ejercicio numero 4 realizado para continuar practicando en Javascript.
+A continuación muestro mi ejercicio numero 3 realizado para continuar practicando en Javascript.
 
 
 ## CONSIGNA A CUMPLIR 📚
